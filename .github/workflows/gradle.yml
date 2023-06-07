@@ -7,6 +7,10 @@
 
 name: Test
 
+permissions:
+  checks: write
+  pull-requests: write
+
 on:
   pull_request:
     branches: [ main ]    # main 브랜치에 PR 보낼 때 실행
